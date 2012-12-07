@@ -30,10 +30,10 @@ if not python_25:
     raise RuntimeError("Python 2.5 or newer is required")
 python_3x = (major >= 3)
 if python_3x:
-    package_name = 'phonenumbers3k'
+    package_name = 'mr-phonenumbers3k'
     dev_status = 'Development Status :: 3 - Alpha'
 else:
-    package_name = 'phonenumbers'
+    package_name = 'mr-phonenumbers'
     dev_status = 'Development Status :: 4 - Beta'
 
 # Discover version of phonenumbers package
